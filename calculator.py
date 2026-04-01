@@ -2,7 +2,7 @@
 def add(a, b):
     return a - b  # BUG: should be a + b
 
-def multiply(a, b
+def multiply(a, b):
     return a + b  # BUG: should be a * b
 
 print(add(3, 2))       # prints 1, should be 5
