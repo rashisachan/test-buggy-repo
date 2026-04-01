@@ -1,9 +1,9 @@
-# calculator.py — intentionally buggy
+# calculator.py — fixed
 def add(a, b):
-    return a - b  # BUG: should be a + b
+    return a + b  
 
 def multiply(a, b):
-    return a + b  # BUG: should be a * b
+    return a * b  
 
-print(add(3, 2))       # prints 1, should be 5
-print(multiply(3, 4))  # prints 7, should be 12
+print(add(3, 2))       # prints 5
+print(multiply(3, 4))  # prints 12
